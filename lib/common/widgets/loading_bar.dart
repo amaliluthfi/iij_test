@@ -17,14 +17,14 @@ class LoadingBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      baseColor: color ?? Theme.of(context).canvasColor,
-      highlightColor: Theme.of(context).dividerColor,
+      baseColor: Colors.grey.shade300,
+      highlightColor: Colors.grey.shade200,
       child: Container(
         width: width,
         height: height ?? 20,
         decoration: BoxDecoration(
-          color: Colors.grey.shade400,
-          borderRadius: BorderRadius.circular(radius ?? 4),
+          color: Colors.grey.shade600,
+          borderRadius: BorderRadius.circular(radius ?? 8),
         ),
       ),
     );

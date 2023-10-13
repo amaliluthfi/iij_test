@@ -34,6 +34,6 @@ class RecipesController extends GetxController {
       ));
     }
     isLoading = false;
-    update();
+    // update();
   }
 }
